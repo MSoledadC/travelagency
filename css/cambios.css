@@ -12,8 +12,9 @@ body {
 }
 
 .header__logo {
-    padding-left: 25px;
+    padding-left: 250px !important;
 }
+
 
 .site-section {
     padding: 30px;

@@ -3289,7 +3289,7 @@ ul {
 
 @media (min-width: 1200px) {
     .hero__box_info {
-        bottom: 165px;
+        bottom: 100px !important;
     }
 }
 
