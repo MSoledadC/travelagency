@@ -11,6 +11,10 @@ body {
     /* Ajusta la altura mínima según tus necesidades */
 }
 
+.hero__item img {
+    display: block; /* Cambia de 'none' a 'block' */
+}
+
 .header__logo {
     padding-left: 250px !important;
 }
