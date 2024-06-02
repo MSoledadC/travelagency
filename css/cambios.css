@@ -1,0 +1,237 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    /* O la fuente que desees utilizar como predeterminada para el texto del cuerpo */
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    /* Ajusta la altura mínima según tus necesidades */
+}
+
+.header__logo {
+    padding-left: 25px;
+}
+
+.site-section {
+    padding: 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-primary {
+    background-color: #c6b791;
+    transition: color 0.3s;
+    border-radius: 5px;
+    border: 1px solid #c6b791;
+    color: #c6b791;
+}
+
+.btn.btn-primary:hover {
+    color: #fff !important;
+    background-color: #0d270ead !important;
+    border: 2px solid #c6b791;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+
+/*Contacto*/
+.form {
+    background: rgba(13, 39, 14, 0.678) !important;
+    color: #ebeae2;
+    padding: 1rem !important;
+    border-radius: 20px;
+}
+
+.form-group {
+    color: #ebeae2;
+    margin-bottom: 1rem;
+}
+
+.bg-white {
+    background: rgba(13, 39, 14, 0.678) !important;
+    padding: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 20px;
+
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+    margin-bottom: 0 !important;
+    color: #ebeae2;
+}
+
+
+
+
+/*FOOTER*/
+
+/*politicas de privaciddad*/
+
+.textopoliticas {
+    color: #1F1F1F;
+
+}
+
+.site-footer {
+    padding: 15px;
+    background: rgb(88 129 89 / 54%);
+}
+
+.site-footer p {
+    margin-bottom: 0px;
+}
+
+.logo_footer {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.input-group {
+    padding-top: 50px;
+}
+
+
+.list-unstyled {
+    color: #fff;
+}
+
+
+
+/*pagina agregar*/
+
+.wizard-container {
+    padding-top: 30px;
+}
+
+.wizard-card .wizard-header h3 {
+    font-weight: 200;
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+
+.wizard-card .tab-content {
+    min-height: 340px;
+    padding: 20px 10px;
+}
+
+
+
+
+/* TABLETS */
+@media (max-width: 950px) {
+    .site-mobile-menu {
+        background-color: transparent;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .offers_area .single_offers h3 {
+        font-size: 18px;
+        display: none;
+    }
+
+    .offers_area.padding_top {
+        padding-top: 50px;
+    }
+
+    .offers_area .single_offers ul {
+        margin-bottom: 190px;
+    }
+
+    .offers_area .single_offers a {
+        width: 100%;
+    }
+
+    .itinerario {
+        background-color: #fff;
+    }
+
+    .site-section {
+        margin-top: 70px;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+    .offers_area.padding_top {
+        padding-top: 40px;
+    }
+
+    .offers_area {
+        padding-bottom: 40px;
+    }
+
+    .offers_area .single_offers {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .offers_area.padding_top {
+        padding-top: 50px;
+    }
+}
+
+
+/* MOBILES */
+@media (max-width: 750px) {
+
+    .site-mobile-menu {
+        background-color: transparent;
+        width: 200px;
+    }
+
+    .slide-one-item.home-slider .owl-prev,
+    .slide-one-item.home-slider .owl-next {
+        width: 20px;
+        height: 40px;
+    }
+
+    .site-blocks-cover,
+    .site-blocks-cover .row {
+        min-height: 0% !important;
+        height: calc(70vh) !important;
+    }
+
+    .site-blocks-cover.inner-page-cover .row {
+        min-height: 0% !important;
+        height: calc(80vh) !important;
+    }
+
+    .slide-one-item.home-slider .owl-nav {
+        top: 40% !important;
+    }
+
+    #popup-container {
+        left: 0;
+        width: 100%;
+
+    }
+
+    .itinerario {
+        background-color: #fff;
+    }
+
+    .site-section {
+        margin-top: 50px;
+    }
+
+
+
+
+}
