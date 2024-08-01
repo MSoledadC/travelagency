@@ -125,49 +125,107 @@ body {
 
 /*FOOTER*/
 
-.footer__contact {
-    display: flex;
-    flex-grow: 1; /* Permite que ocupe todo el espacio disponible */
-    margin-top: 40px;
-
+.site-footer {
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
 }
 
-.footer__contact ul {
-    margin: auto; /* Centra la lista verticalmente */
+.single-footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer_widget img,
+.single-footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer__contact ul,
+.footer-menu,
+.footer-blog {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-title-line {
+    width: 50px;
+    height: 2px;
+    background-color: #ff7e5f;
+    margin-bottom: 15px;
+}
+
+.footer-adress li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-adress a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-adress a:hover {
+    color: #bb9397;
+}
+
+.footer-menu li,
+.footer-adress li,
+.footer-blog li {
+    margin-bottom: 10px;
+}
+
+.footer__social .social-icon {
+    margin-right: 15px;
+}
+
+.social ul {
     padding: 0;
 }
 
-.footer__contact li {
-    margin-bottom: 10px;
-    text-align: center;
+.social ul li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.footer__contact a {
-    font-size: 16px; 
-    text-decoration: none;
-    font-weight: 600;
-    line-height: 2em;
-    color: #333;
-    letter-spacing: normal;
-    
-}
-
-.footer__contact a:hover {
-    color: #bd1e2d;
-}
-
-.footer__social a {
+.social ul li a {
+    color: #fff;
     font-size: 25px;
 }
 
-.footer__social a:hover {
-    color: #bd1e2d;
+.social ul li a:hover {
+    color: #ff7e5f;
 }
 
+.input-group {
+    margin-top: 15px;
+}
+
+.input-group input.form-control {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.input-group button.subscribe {
+    border-radius: 30px;
+    background-color: #ff7e5f;
+    color: #fff;
+}
 .footer__backtotop {
     background-color: #bb9397;
     border-radius: 30px;
     padding: 10px;
+    position: relative;
+    bottom: 10px;
+    font-size: 10px;
 }
 
 
@@ -193,11 +251,6 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
-
-.input-group {
-    padding-top: 50px;
-}
-
 
 .list-unstyled {
     color: #fff;
